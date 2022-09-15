@@ -1,21 +1,23 @@
+#include <stdio.h>
+
 /**
-* main - prints the largest of 3 integers
+* main - causes an infinite loop
 * Return: 0
 */
 
 int main(void)
 {
-	int 1;
+	int i;
 
 	printf("Infinite loop incoming :(\n");
 
 	i = 0;
-	
-	while (i < 10)
-	{
-		putchar(i);
-	}
-		
+
+	/*while (i < 10)*/
+	/*{*/
+	/*putchar(i);*/
+	/*}*/
+
 	printf("Infinite loop avoided! \\o/\n");
 
 	return (0);
